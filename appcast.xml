@@ -1,9 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
-  <channel>
-    <title>Nuuu Updates</title>
-    <link>https://nuuuformac.github.io/Nuuu-Updates/appcast.xml</link>
-    <description>Signed updates for Nuuu for Mac.</description>
-    <language>en</language>
-  </channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Nuuu Updates</title>
+        <link>https://nuuuformac.github.io/Nuuu-Updates/appcast.xml</link>
+        <description>Signed updates for Nuuu for Mac.</description>
+        <language>en</language>
+        <item>
+            <title>0.2.0-beta.1</title>
+            <pubDate>Thu, 18 Jun 2026 01:02:51 +0100</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>0.2.0-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Nuuu 0.2.0 Beta 1
+
+This prerelease brings a substantial cleanup and monitoring update:
+
+- Finds exact duplicate files, previews them with thumbnails, and keeps one original.
+- Moves duplicate batches to Trash with responsive progress and safer path checks.
+- Adds full-pane scan and cleanup processing overlays with honest progress.
+- Adds scheduled deep-junk cleanup with completion notifications.
+- Adds gentle critical-memory notifications and clearer RAM accounting.
+- Scans the startup drive for large files using a new 100 MB default threshold.
+- Adds background launch at login, device-aware Overview copy, and update settings.
+- Adds signed Sparkle update checks and a public update feed.
+
+This testing build is Sparkle-signed but not Apple-notarized. macOS may display
+a security warning during installation.
+]]></description>
+            <enclosure url="https://github.com/nuuuformac/Nuuu-Updates/releases/download/v0.2.0-beta.1/Nuuu-0.2.0-beta.1.zip" length="30877163" type="application/octet-stream" sparkle:edSignature="MySuyyybtNCLiQrceVVY/FymjPzaeuGIqq2qfpKafy8sdXuw50pVqFk9vTJwTvl3Gm/0xBGX43qdGDUHZk1pCg=="/>
+        </item>
+    </channel>
 </rss>
