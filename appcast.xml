@@ -6,6 +6,26 @@
         <description>Signed updates for Nuuu for Mac.</description>
         <language>en</language>
         <item>
+            <title>0.2.0-beta.4</title>
+            <pubDate>Wed, 24 Jun 2026 22:47:06 +0100</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>0.2.0-beta.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Nuuu 0.2 Beta 4
+
+This prerelease is for tester validation of the latest Nuuu fixes and polish.
+
+- Adds privacy-first analytics, reliability telemetry, crash-reporting abstractions, privacy settings, and telemetry documentation.
+- Fixes app update publishing so users on older 0.2 builds can see the newest Sparkle update.
+- Improves large-file scanning, app cleanup loading, uninstall reliability, permission-focus behavior, and RAM optimization responsiveness.
+- Redesigns the Schedule section to match Nuuu styling and shows accurate last-run cleaned item and freed-space metrics.
+- Keeps telemetry privacy-first: no file names, paths, app names, assistant prompts, tokens, or cleanup contents are collected.
+
+This testing build is Sparkle-signed but not Apple-notarized. macOS may display a security warning during installation.
+]]></description>
+            <enclosure url="https://nuuuformac.github.io/Nuuu-Updates/downloads/v0.2.0-beta.4/Nuuu-0.2-beta-4.zip" length="35910995" type="application/octet-stream" sparkle:edSignature="8RJrLQWCwr6v6ebcB4cCdQteBJt/lDaibNo9R4/Pd3Di93fMcc6svkC6+xv+7ozBSVTFLGBoKn4CoOAmzfSfCQ=="/>
+        </item>
+        <item>
             <title>0.2.0-beta.3</title>
             <pubDate>Tue, 23 Jun 2026 22:52:28 +0100</pubDate>
             <sparkle:version>4</sparkle:version>
