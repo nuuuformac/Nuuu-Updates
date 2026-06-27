@@ -6,6 +6,24 @@
         <description>Signed updates for Nuuu for Mac.</description>
         <language>en</language>
         <item>
+            <title>0.2.0-beta.6</title>
+            <pubDate>Sun, 28 Jun 2026 00:00:31 +0100</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>0.2.0-beta.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Nuuu 0.2 Beta 6
+
+This prerelease fixes Empty Trash for users whose Mac still denies direct access to `.Trash` even after Full Disk Access appears enabled.
+
+- Keeps the safe direct FileManager empty-trash path as the first attempt.
+- Adds a Finder Empty Trash fallback when macOS denies direct Trash access, so Finder can surface any required system approval in front of the user.
+- Adds regression coverage for denied direct Trash access.
+
+This testing build is Sparkle-signed but not Apple-notarized. macOS may display a security warning during installation.
+]]></description>
+            <enclosure url="https://github.com/nuuuformac/Nuuu-Updates/releases/download/v0.2.0-beta.6/Nuuu-0.2-beta-6.zip" length="35944006" type="application/octet-stream" sparkle:edSignature="VoISsMiuhwH1F3WHiTVPHb6SyQNLAIz5hez1Fap5u/siPvv5sTR5mxuLEn9tP0VUykWbFpAGG+knxqIlpmcxBg=="/>
+        </item>
+        <item>
             <title>0.2.0-beta.5</title>
             <pubDate>Sat, 27 Jun 2026 16:36:58 +0100</pubDate>
             <sparkle:version>6</sparkle:version>
@@ -68,30 +86,6 @@ This testing build is Sparkle-signed but not Apple-notarized. macOS may display
 a security warning during installation.
 ]]></description>
             <enclosure url="https://github.com/nuuuformac/Nuuu-Updates/releases/download/v0.2.0-beta.2/Nuuu-0.2-beta-2.zip" length="30886926" type="application/octet-stream" sparkle:edSignature="20WiKd6RSqY1/LlwnBgZVYVa14kxMPWz9+eBZJ3aNm++C/sb7RXUhiIBqEFACrR3Z13hBkIKNV6uRihcpyjCAQ=="/>
-        </item>
-        <item>
-            <title>0.2.0-beta.1</title>
-            <pubDate>Thu, 18 Jun 2026 01:02:51 +0100</pubDate>
-            <sparkle:version>2</sparkle:version>
-            <sparkle:shortVersionString>0.2.0-beta.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Nuuu 0.2.0 Beta 1
-
-This prerelease brings a substantial cleanup and monitoring update:
-
-- Finds exact duplicate files, previews them with thumbnails, and keeps one original.
-- Moves duplicate batches to Trash with responsive progress and safer path checks.
-- Adds full-pane scan and cleanup processing overlays with honest progress.
-- Adds scheduled deep-junk cleanup with completion notifications.
-- Adds gentle critical-memory notifications and clearer RAM accounting.
-- Scans the startup drive for large files using a new 100 MB default threshold.
-- Adds background launch at login, device-aware Overview copy, and update settings.
-- Adds signed Sparkle update checks and a public update feed.
-
-This testing build is Sparkle-signed but not Apple-notarized. macOS may display
-a security warning during installation.
-]]></description>
-            <enclosure url="https://github.com/nuuuformac/Nuuu-Updates/releases/download/v0.2.0-beta.1/Nuuu-0.2.0-beta.1.zip" length="30877163" type="application/octet-stream" sparkle:edSignature="MySuyyybtNCLiQrceVVY/FymjPzaeuGIqq2qfpKafy8sdXuw50pVqFk9vTJwTvl3Gm/0xBGX43qdGDUHZk1pCg=="/>
         </item>
     </channel>
 </rss>
