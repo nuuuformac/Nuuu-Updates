@@ -6,6 +6,14 @@
         <description>Signed updates for Nuuu for Mac.</description>
         <language>en</language>
         <item>
+            <title>0.2.0-beta.5</title>
+            <pubDate>Sat, 27 Jun 2026 16:36:58 +0100</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>0.2.0-beta.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/nuuuformac/Nuuu-Updates/releases/download/v0.2.0-beta.5/Nuuu-0.2-beta-5.zip" length="35933826" type="application/octet-stream" sparkle:edSignature="LJMRABv/Dgn/Fmg/QNsZ5gIVN2q3TU2qD6/mu1saDrXqiBYNGcxrAX/IsWA7GeLl7e0N9QJ10zI4zuiQbJueCw=="/>
+        </item>
+        <item>
             <title>0.2.0-beta.4</title>
             <pubDate>Wed, 24 Jun 2026 22:47:06 +0100</pubDate>
             <sparkle:version>5</sparkle:version>
