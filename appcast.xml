@@ -6,6 +6,27 @@
         <description>Signed updates for Nuuu for Mac.</description>
         <language>en</language>
         <item>
+            <title>0.2.0</title>
+            <pubDate>Thu, 02 Jul 2026 20:02:13 +0100</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Nuuu 0.2 Beta 7
+
+This prerelease improves cleanup review, scan speed, and history visibility.
+
+- Adds thumbnail previews and Show in Finder actions for large files.
+- Speeds up duplicate and large file scan review flows.
+- Keeps cleanup history for junk, large files, duplicate files, and Empty Trash events.
+- Adds duration filters and summary cards to history popups.
+- Improves stale-result handling after files are moved to Trash.
+- Smooths scan loader animation and tightens history popup spacing.
+
+This testing build is Sparkle-signed but not Apple-notarized. macOS may display a security warning during installation.
+]]></description>
+            <enclosure url="https://github.com/nuuuformac/Nuuu-Updates/releases/download/v0.2.0-beta.7/Nuuu-0.2-beta-7.zip" length="36443268" type="application/octet-stream" sparkle:edSignature="XCFhM1gO86syQeKrDM3zYpVl04xOSavD6XHj9W0E6Ujs97BKobKSoqeLSgSUjuSl60qw8yTB3fqy0eAwCt6JAw=="/>
+        </item>
+        <item>
             <title>0.2.0-beta.6</title>
             <pubDate>Sun, 28 Jun 2026 00:00:31 +0100</pubDate>
             <sparkle:version>7</sparkle:version>
@@ -66,26 +87,6 @@ It should be published with Sparkle build `4` so users on 0.2 Beta 2, build `3`,
 are offered the update instead of seeing "You're up to date."
 ]]></description>
             <enclosure url="https://nuuuformac.github.io/Nuuu-Updates/downloads/v0.2.0-beta.3/Nuuu-0.2-beta-3.zip" length="11567277" type="application/octet-stream" sparkle:edSignature="D0mRz7Uuc779IjIi7zZ6pJzruc5jQOnfOp1y6UCgFvIcPwTfOmiUflGhqXqlAYCHjz9rPdTZqw/LDU3TgMeyAg=="/>
-        </item>
-        <item>
-            <title>0.2.0</title>
-            <pubDate>Thu, 18 Jun 2026 02:11:51 +0100</pubDate>
-            <sparkle:version>3</sparkle:version>
-            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Nuuu 0.2 Beta 2
-
-This prerelease contains the complete duplicate cleanup, scheduling, scan
-progress, notification, RAM reporting, and Sparkle update work now merged into
-Nuuu's `main` branch.
-
-It also includes compatibility fixes for Quick Look thumbnails and
-notifications when building with Xcode 16.4.
-
-This testing build is Sparkle-signed but not Apple-notarized. macOS may display
-a security warning during installation.
-]]></description>
-            <enclosure url="https://github.com/nuuuformac/Nuuu-Updates/releases/download/v0.2.0-beta.2/Nuuu-0.2-beta-2.zip" length="30886926" type="application/octet-stream" sparkle:edSignature="20WiKd6RSqY1/LlwnBgZVYVa14kxMPWz9+eBZJ3aNm++C/sb7RXUhiIBqEFACrR3Z13hBkIKNV6uRihcpyjCAQ=="/>
         </item>
     </channel>
 </rss>
