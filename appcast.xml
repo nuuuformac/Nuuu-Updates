@@ -6,6 +6,27 @@
         <description>Signed updates for Nuuu for Mac.</description>
         <language>en</language>
         <item>
+            <title>0.2.0-beta.7</title>
+            <pubDate>Thu, 02 Jul 2026 20:02:13 +0100</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>0.2.0-beta.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Nuuu 0.2 Beta 7
+
+This prerelease improves cleanup review, scan speed, and history visibility.
+
+- Adds thumbnail previews and Show in Finder actions for large files.
+- Speeds up duplicate and large file scan review flows.
+- Keeps cleanup history for junk, large files, duplicate files, and Empty Trash events.
+- Adds duration filters and summary cards to history popups.
+- Improves stale-result handling after files are moved to Trash.
+- Smooths scan loader animation and tightens history popup spacing.
+
+This testing build is Sparkle-signed but not Apple-notarized. macOS may display a security warning during installation.
+]]></description>
+            <enclosure url="https://github.com/nuuuformac/Nuuu-Updates/releases/download/v0.2.0-beta.7/Nuuu-0.2-beta-7.zip" length="36443271" type="application/octet-stream" sparkle:edSignature="F6U6xjozz6jEsWp1xcaFcAnyj5MX+9aIyRF4U33VCy0SrRPqGlRU/218AE1BG0q/2M5YwXagxPvwUS78uAisBw=="/>
+        </item>
+        <item>
             <title>0.2.0-beta.6</title>
             <pubDate>Sun, 28 Jun 2026 00:00:31 +0100</pubDate>
             <sparkle:version>7</sparkle:version>
