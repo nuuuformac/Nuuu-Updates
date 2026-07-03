@@ -6,6 +6,25 @@
         <description>Signed updates for Nuuu for Mac.</description>
         <language>en</language>
         <item>
+            <title>0.2.0-beta.8</title>
+            <pubDate>Fri, 03 Jul 2026 04:01:33 +0100</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>0.2.0-beta.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Nuuu 0.2 Beta 8
+
+This prerelease enables the production telemetry and crash-reporting pipeline.
+
+- Embeds the TelemetryDeck app ID, Sentry DSN, and remote telemetry config in the packaged build.
+- Sends anonymous analytics and reliability signals to the live TelemetryDeck dashboard instead of hidden debug test mode.
+- Keeps analytics, reliability, and crash reporting enabled by default while still respecting the remote config kill switch.
+- Includes the latest cleanup history, scan review, and performance fixes from Beta 7.
+
+Crash reports and anonymous telemetry stay privacy scoped: file paths, prompts, and personal content are not collected.
+]]></description>
+            <enclosure url="https://github.com/nuuuformac/Nuuu-Updates/releases/download/v0.2.0-beta.8/Nuuu-0.2-beta-8.zip" length="36443344" type="application/octet-stream" sparkle:edSignature="8tKd9DPJvFNcXL9t1FH19j2VuOX+6JZhUashHCbCnByVw43KTs6rOlvu0aKy1Hm+pBK+yVjPVIgP4UMzrCehCA=="/>
+        </item>
+        <item>
             <title>0.2.0-beta.7</title>
             <pubDate>Thu, 02 Jul 2026 20:02:13 +0100</pubDate>
             <sparkle:version>8</sparkle:version>
@@ -71,22 +90,6 @@ This prerelease is for tester validation of the latest Nuuu fixes and polish.
 This testing build is Sparkle-signed but not Apple-notarized. macOS may display a security warning during installation.
 ]]></description>
             <enclosure url="https://nuuuformac.github.io/Nuuu-Updates/downloads/v0.2.0-beta.4/Nuuu-0.2-beta-4.zip" length="35910995" type="application/octet-stream" sparkle:edSignature="8RJrLQWCwr6v6ebcB4cCdQteBJt/lDaibNo9R4/Pd3Di93fMcc6svkC6+xv+7ozBSVTFLGBoKn4CoOAmzfSfCQ=="/>
-        </item>
-        <item>
-            <title>0.2.0-beta.3</title>
-            <pubDate>Tue, 23 Jun 2026 22:52:28 +0100</pubDate>
-            <sparkle:version>4</sparkle:version>
-            <sparkle:shortVersionString>0.2.0-beta.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Nuuu 0.2 Beta 3
-
-This prerelease continues the 0.2 test cycle with the latest app polish and
-stability fixes from `main`.
-
-It should be published with Sparkle build `4` so users on 0.2 Beta 2, build `3`,
-are offered the update instead of seeing "You're up to date."
-]]></description>
-            <enclosure url="https://nuuuformac.github.io/Nuuu-Updates/downloads/v0.2.0-beta.3/Nuuu-0.2-beta-3.zip" length="11567277" type="application/octet-stream" sparkle:edSignature="D0mRz7Uuc779IjIi7zZ6pJzruc5jQOnfOp1y6UCgFvIcPwTfOmiUflGhqXqlAYCHjz9rPdTZqw/LDU3TgMeyAg=="/>
         </item>
     </channel>
 </rss>
