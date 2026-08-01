@@ -6,6 +6,30 @@
         <description>Signed updates for Nuuu for Mac.</description>
         <language>en</language>
         <item>
+            <title>1.0.0-beta.2</title>
+            <pubDate>Sat, 01 Aug 2026 16:53:38 +0000</pubDate>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>1.0.0-beta.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Nuuu 1.0 Beta 2
+
+Nuuu 1.0 Beta 2 continues the universal macOS Big Sur-and-later prerelease with
+the latest cleanup, navigation, About, menu, and telemetry fixes.
+
+- Adds Help actions for Apple feedback, the Nuuu website, support, and user feedback.
+- Adds a custom About Nuuu window with build information and product links.
+- Adds Quick Scan and Clean My Mac to the File menu; Clean My Mac opens Discover's storage cleanup options.
+- Improves app-uninstall attribution and protects unrelated diagnostic and project files.
+- Tags Sentry reports with the Nuuu release and exact app build for reliable crash triage.
+- Keeps TelemetryDeck and Sentry configuration embedded in the published bundle, with privacy filtering and remote kill-switch support.
+
+This prerelease is universal for Intel and Apple-silicon Macs running macOS Big Sur
+or later. It is Sparkle-signed for direct updates inside Nuuu but is not
+Apple-notarized.
+]]></description>
+            <enclosure url="https://github.com/nuuuformac/Nuuu-Updates/releases/download/v1.0.0-beta.2/Nuuu-1.0-beta-2.zip" length="55436306" type="application/octet-stream" sparkle:edSignature="qJIyIa4XvQ0YXY3HEn2R50L5cMBOeSom/Sfn5c1xV60Nklo7E+GQnnMnAFIFzm8ZR7nfWzwnwAOSglkCvOc3Cg=="/>
+        </item>
+        <item>
             <title>1.0.0-beta.1</title>
             <pubDate>Sat, 01 Aug 2026 03:42:52 +0100</pubDate>
             <sparkle:version>10</sparkle:version>
