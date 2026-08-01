@@ -6,6 +6,27 @@
         <description>Signed updates for Nuuu for Mac.</description>
         <language>en</language>
         <item>
+            <title>1.0.0-beta.1</title>
+            <pubDate>Sat, 01 Aug 2026 03:42:52 +0100</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>1.0.0-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Nuuu 1.0 Beta 1
+
+Nuuu 1.0 Beta 1 is a major prerelease focused on a faster, calmer cleanup experience and a more useful live view of your Mac.
+
+- Redesigns Discover, Analytics, Schedule, Junk Cleanup, App Cleanup, and Files Cleanup with responsive layouts, polished motion, improved dark-mode contrast, and persistent navigation state.
+- Adds live memory and performance insights with clearer memory accounting, installed-app and system-app grouping, and safer app quitting.
+- Improves large-file, duplicate, installer, leftover, and app cleanup review flows with better selection states, history, thumbnails, and lightweight completion feedback.
+- Makes scans and cleanup more responsive through bounded work, throttled progress updates, batched duplicate removal, and non-blocking UI updates.
+- Strengthens cleanup safety with explicit approval, path and identity validation, protected project-file handling, and clearer review-only recommendations.
+- Adds calmer contextual notifications, deep links, custom analytics and schedule date ranges, and updated Nuuu branding and app icon.
+
+This prerelease is universal for Intel and Apple-silicon Macs running macOS Big Sur or later. It is Sparkle-signed for direct updates inside Nuuu but is not Apple-notarized. A fresh installation may show a macOS security warning.
+]]></description>
+            <enclosure url="https://github.com/nuuuformac/Nuuu-Updates/releases/download/v1.0.0-beta.1/Nuuu-1.0-beta-1.zip" length="55096622" type="application/octet-stream" sparkle:edSignature="tP1aQrlyjd1CB6iSaFtC2gt+MID+Rm35ajIib2Rd75MFVgRfnL/nQglS2fvCH1Ujj6l02M2+iBYVUbizYNpQBQ=="/>
+        </item>
+        <item>
             <title>0.2.0-beta.8</title>
             <pubDate>Fri, 03 Jul 2026 04:01:33 +0100</pubDate>
             <sparkle:version>9</sparkle:version>
