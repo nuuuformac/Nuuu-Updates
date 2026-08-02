@@ -6,6 +6,32 @@
         <description>Signed updates for Nuuu for Mac.</description>
         <language>en</language>
         <item>
+            <title>1.0.0-beta.3</title>
+            <pubDate>Sun, 02 Aug 2026 10:33:08 +0000</pubDate>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>1.0.0-beta.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Nuuu 1.0 Beta 3
+
+Nuuu 1.0 Beta 3 is a universal macOS Big Sur-and-later prerelease focused on
+reliable live optimization and a safer release experience.
+
+- Fixes Memory Optimization so Finder uses its supported graceful quit path.
+- Terminates non-UI helpers such as ChatGPT Classic's `ChatGPTHelper`, Premiere
+  helpers, and CCXProcess only when they belong to the selected app bundle.
+- Verifies real process exit instead of trusting a stale live-sampling row.
+- Restores the Performance Optimization list with live CPU sampling, while
+  keeping shell agents and other critical macOS services out of the quit list.
+- Includes the latest app-cleanup badge, compatibility-window, telemetry, and
+  Sentry fixes from `main`.
+
+This prerelease is universal for Intel and Apple-silicon Macs running macOS Big
+Sur or later. It is Sparkle-signed for direct updates inside Nuuu and includes
+the production TelemetryDeck and Sentry configuration. It is not Apple-notarized.
+]]></description>
+            <enclosure url="https://github.com/nuuuformac/Nuuu-Updates/releases/download/v1.0.0-beta.3/Nuuu-1.0-beta-3.zip" length="55561987" type="application/octet-stream" sparkle:edSignature="yzZCxrQlINYbW2CDjhOZtw4ARLrMDuzQ/NsVm6yJGtze3BAIcPgQcr7rwJm/cT6G3ne8dHju7bCQzF0qGlCnAA=="/>
+        </item>
+        <item>
             <title>1.0.0-beta.2</title>
             <pubDate>Sat, 01 Aug 2026 16:53:38 +0000</pubDate>
             <sparkle:version>11</sparkle:version>
