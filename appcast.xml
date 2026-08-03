@@ -6,6 +6,36 @@
         <description>Signed updates for Nuuu for Mac.</description>
         <language>en</language>
         <item>
+            <title>1.0.1</title>
+            <pubDate>Mon, 03 Aug 2026 15:32:04 +0000</pubDate>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Nuuu 1.0.1
+
+Nuuu 1.0.1 is a universal macOS Big Sur-and-later prerelease focused on
+reliable startup, scheduling, cleanup accuracy, and native window behavior.
+
+- Fixes the first launch after moving Nuuu from its disk image to Applications,
+  including the cold-launch window behavior seen on Intel Macs.
+- Restores functional scheduled cleanup controls, arbitrary run times, scheduled-only
+  history, duplicate-run protection, and quieter retry notifications.
+- Restores native macOS traffic-light and fullscreen behavior while keeping the
+  sidebar toggle beside the window controls in resized and fullscreen layouts.
+- Removes duplicate native horizontal scrollbars from Analytics and Schedule while
+  preserving Nuuu's compact custom deck indicator.
+- Reconciles memory totals with installed physical memory and shortens Intel processor
+  names to clear labels such as `Intel(R) Core i5`.
+- Fixes recent Sentry crash and hanging paths, refreshes live cleanup recommendations,
+  and keeps TelemetryDeck and Sentry release metadata tied to this exact build.
+
+This prerelease is universal for Intel and Apple-silicon Macs running macOS Big
+Sur or later. It is Sparkle-signed for direct updates inside Nuuu and includes
+the production TelemetryDeck and Sentry configuration. It is not Apple-notarized.
+]]></description>
+            <enclosure url="https://github.com/nuuuformac/Nuuu-Updates/releases/download/v1.0.1/Nuuu-1.0.1.zip" length="55732298" type="application/octet-stream" sparkle:edSignature="eDFjfX0kXL7hSsf/XmW2vsta27lPYjIe3SNhj42tYm4oYk1vQQMZfBY6mAPeWARUBIO391fUy9fAd4dyBBCjAA=="/>
+        </item>
+        <item>
             <title>1.0.0-beta.3</title>
             <pubDate>Sun, 02 Aug 2026 10:33:08 +0000</pubDate>
             <sparkle:version>12</sparkle:version>
