@@ -6,6 +6,35 @@
         <description>Signed updates for Nuuu for Mac.</description>
         <language>en</language>
         <item>
+            <title>1.0.2</title>
+            <pubDate>Thu, 01 Oct 2026 02:27:35 +0000</pubDate>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Nuuu 1.0.2
+
+Nuuu 1.0.2 is a universal macOS prerelease focused on safer cleanup and a more
+reliable review experience.
+
+- Fixes App Cleanup scanning feedback, keeps the scanned app inventory available
+  during review, and makes switching between review sections show the selected
+  content.
+- Improves leftover-file review with clearer bulk selection and Trash actions.
+- Makes duplicate cleanup more responsive with batched Trash progress and
+  privacy-safe outcome diagnostics.
+- Prepares related Docker services before removing their residual files and
+  stops when Nuuu cannot verify a service's state.
+- Fixes Junk Cleanup results and launch-item registration after updates.
+- Includes Sparkle in-app updates, TelemetryDeck analytics, and Sentry crash
+  reporting with metadata for this build.
+
+This prerelease is universal for Intel and Apple-silicon Macs running macOS Big
+Sur or later. It is Sparkle-signed for direct updates inside Nuuu but is not
+Apple-notarized.
+]]></description>
+            <enclosure url="https://github.com/nuuuformac/Nuuu-Updates/releases/download/v1.0.2/Nuuu-1.0.2.zip" length="55893819" type="application/octet-stream" sparkle:edSignature="GhyHsvkFYr7G14kQoJEbBAR149BQcrNNBJW2wyo1AT+fSrzAZU7yWUtOe3E0UGqa3aI8+RsRBdaa5jqttRdQCQ=="/>
+        </item>
+        <item>
             <title>1.0.1</title>
             <pubDate>Mon, 03 Aug 2026 15:32:04 +0000</pubDate>
             <sparkle:version>13</sparkle:version>
